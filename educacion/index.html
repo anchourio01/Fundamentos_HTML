@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hoja de Vida Digital</title>
+    <style>
+      h2,h3 {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+            }
+    </style>
+  </head>
+  <body>
+    <header>
+      <svg width="300" height="60" viewbox="0 0 300 60">
+        <image xlink:href="C:\NextU\Proyecto_Fundamentos_HTML\images\logo_AC.svg" width="200" height="300"></image>
+      </svg>
+      <h1 >Hoja de Vida</h1>
+        <h2 >Antonio Chourio</h2>
+          <h3 >Fecha de Nacimiento: 02/01/1980</h3>
+          <h3 >Lugar de Nacimiento: Maracaibo, Venezuela</h3>
+    </header>
+    <navbar>
+      <p>
+      </p>
+      <ul>
+        <li> <a href="C:\NextU\Proyecto_Fundamentos_HTML\index.html">Inicio</a> </li>
+        <li> <a href="C:\NextU\Proyecto_Fundamentos_HTML\educacion\index.html">Educación</a> </li>
+        <li> <a href="C:\NextU\Proyecto_Fundamentos_HTML\experiencia\index.html">Experiencia </a> </li>
+      </ul>
+    </navbar>
+    <section>
+      <h2>Educación</h2>
+      <table border="1", cellpadding="5", cellspacing="0" >
+      <thead>
+          <tr>
+            <th>Año  </th>
+            <th>Institución </th>
+            <th>Lugar  </th>
+            <th>¿Culminó? </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td> 2013 </td>
+            <td> Regency </td>
+            <td> Miami </td>
+            <td> Si </td>
+          </tr>
+          <tr>
+            <td> 2010 </td>
+            <td> Alcatel </td>
+            <td> Caracas </td>
+            <td> Si </td>
+          </tr>
+          <tr>
+            <td>2008</td>
+            <td>Alcatel </td>
+            <td> Caracas </td>
+            <td> Si</td>
+          </tr>
+      </tbody>
+     </table>
+     <p> </p>
+     <form name="RegistroEstudios" autocomplete="on">
+       <fielset>
+         <legend><h3>Agregar Estudios</h3></legend>
+         <label for="Ano"><strong>Año:</strong></label>
+         <select>
+           <option>2017</option>
+           <option>2016</option>
+           <option>2015</option>
+           <option>2014</option>
+           <option>2013</option>
+           <option>2012</option>
+           <option>2011</option>
+           <option>2010</option>
+           <option>2009</option>
+           <option>2008</option>
+           <option>2007</option>
+           <option>2006</option>
+         </select>
+         <p>
+         <label for="institucion"><strong>Institución:</strong></label>
+         <input type="text" id="institucion" required>
+         <p>
+         <label for="lugar"><strong>Lugar: </strong></label>
+         <textarea name="lugar" rows="2" required> </textarea>
+         <p>
+         <label for="culmino"><strong>¿Culminó?</strong></label>
+         <input type="radio" name="culmino">Si
+         <input type="radio" name="culmino">No
+         <p>
+         <input type="submit" value="Enviar">
+       </fielset>
+     </form>
+  </section>
+  </footer>
+    <p>@Derechos Reservados</p>
+    <ul>
+      <li> <strong>Email:</strong> info@info.net </li>
+      <li> <strong>Teléfonos: </strong> +20 777 8585 </li>
+      <li> <strong>Dirección: </strong>Esquina San Francisco. </li>
+    </ul>
+  </footer>
+  </body>
+</html>
